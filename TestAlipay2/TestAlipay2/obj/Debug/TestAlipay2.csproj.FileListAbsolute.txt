@@ -1,0 +1,5 @@
+E:\程序设计_C#\workspace\TestAlipay2\TestAlipay2\bin\TestAlipay2.dll
+E:\程序设计_C#\workspace\TestAlipay2\TestAlipay2\bin\TestAlipay2.pdb
+E:\程序设计_C#\workspace\TestAlipay2\TestAlipay2\obj\Debug\TestAlipay2.dll
+E:\程序设计_C#\workspace\TestAlipay2\TestAlipay2\obj\Debug\TestAlipay2.pdb
+E:\程序设计_C#\workspace\TestAlipay2\TestAlipay2\obj\Debug\TestAlipay2.csprojResolveAssemblyReference.cache

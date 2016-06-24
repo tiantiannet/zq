@@ -1,0 +1,5 @@
+E:\程序设计_C#\workspace\TestAliDayu\TestAliDayu\bin\TestAliDayu.dll
+E:\程序设计_C#\workspace\TestAliDayu\TestAliDayu\bin\TestAliDayu.pdb
+E:\程序设计_C#\workspace\TestAliDayu\TestAliDayu\obj\Debug\TestAliDayu.csprojResolveAssemblyReference.cache
+E:\程序设计_C#\workspace\TestAliDayu\TestAliDayu\obj\Debug\TestAliDayu.dll
+E:\程序设计_C#\workspace\TestAliDayu\TestAliDayu\obj\Debug\TestAliDayu.pdb

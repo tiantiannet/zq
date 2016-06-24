@@ -1,0 +1,6 @@
+E:\程序设计_C#\workspace\TestSohu\TestSohu\bin\Debug\TestSohu.exe.config
+E:\程序设计_C#\workspace\TestSohu\TestSohu\obj\Debug\TestSohu.csprojResolveAssemblyReference.cache
+E:\程序设计_C#\workspace\TestSohu\TestSohu\bin\Debug\TestSohu.exe
+E:\程序设计_C#\workspace\TestSohu\TestSohu\bin\Debug\TestSohu.pdb
+E:\程序设计_C#\workspace\TestSohu\TestSohu\obj\Debug\TestSohu.exe
+E:\程序设计_C#\workspace\TestSohu\TestSohu\obj\Debug\TestSohu.pdb
