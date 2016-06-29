@@ -1,0 +1,11 @@
+C:\Users\Tin\Documents\tiantian2\Tools\bin\Debug\Tools.dll
+C:\Users\Tin\Documents\tiantian2\Tools\bin\Debug\Tools.pdb
+C:\Users\Tin\Documents\tiantian2\Tools\obj\Debug\Tools.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Documents\tiantian2\Tools\obj\Debug\Tools.dll
+C:\Users\Tin\Documents\tiantian2\Tools\obj\Debug\Tools.pdb
+C:\Users\Tin\Documents\tiantian2\Tools\bin\Debug\CodeScales.Http.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Tools\bin\Debug\Tools.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Tools\bin\Debug\Tools.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Tools\bin\Debug\CodeScales.Http.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Tools\obj\Debug\Tools.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Tools\obj\Debug\Tools.pdb

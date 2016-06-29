@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="BootstrapStyler">
+<title>猿圈 人才推荐</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/bootstrapValidator.css" rel="stylesheet">
+<link href="dev/pluginJs/fileinput/fileinput.min.css" rel="stylesheet" />
+<link href="css/summernote.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/style_new.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<style type="text/css">
+	a{
+		text-decoration: none;
+	}
+</style>
+
+
+<body>
+
+
+<div class="navbar navbar-default navbar-fixed-top" onload="validateSession()">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand hidden-sm" href="cooper_index.html" style="padding: 0;">
+				<img src="img/wlogo_sm.png" style="max-height: 35px;margin:7px;">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" role="navigation">
+			<ul class="nav navbar-nav">
+				<li class="">
+					<a href="cooper/oxcoder_corp_index.html">首页</a>
+				</li>
+				<li class="active">
+					<a href="cooper/recommended/talent/index.html">人才推荐</a>
+				</li>
+				<li class="">
+					<a href="cooper/index.html">挑战管理</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<span class="text">
+							
+								
+								
+								
+									北京交通大学软件学院.NET课程股份有限公司
+								
+							
+						</span>
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="cooper/pay/view_balance.html">去打赏</a>
+						</li>
+						<li>
+							<a href="cooper/cooperInfo/view_cooper_info.html">企业信息</a>
+						</li>
+						<li>
+							<a href="cooper/cooperInfo/account_binding.html">帐号设置</a>
+						</li>
+						<li>
+							<a href="security_logout">注销</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-xs-12 col-no-left-padding page-header">
+					<h2 class="h2-tab">
+						<a href="#">人才推荐</a>
+					</h2>
+					<h2 class="h2-tab">
+						<a href="#" class="off">已查看人才</a>
+					</h2>
+					<div>
+						技术方向：
+						<a href="cooper/recommended/talent/index.html?direction=0" class="btn btn-order active">全部</a>
+						
+							<a href="cooper/recommended/talent/index.html?direction=1" class="btn btn-order ">Java</a>
+						
+							<a href="cooper/recommended/talent/index.html?direction=2" class="btn btn-order ">Android</a>
+						
+							<a href="cooper/recommended/talent/index.html?direction=3" class="btn btn-order ">iOS</a>
+						
+							<a href="cooper/recommended/talent/index.html?direction=4" class="btn btn-order ">C语言(beta)</a>
+						
+							<a href="cooper/recommended/talent/index.html?direction=5" class="btn btn-order ">C++(beta)</a>
+						
+							<a href="cooper/recommended/talent/index.html?direction=6" class="btn btn-order ">php(beta)</a>
+						
+							<a href="cooper/recommended/talent/index.html?direction=7" class="btn btn-order ">Python(beta)</a>
+						
+						<div class="pull-right">
+							<div style="display: inline-block; vertical-align: top;">
+								<form class="input-group" style="width: 200px" action="cooper/recommended/talent/index.html" method="get">
+									<input name="userName" class="form-control" placeholder="全文搜索" value="">
+									<input name="direction" type="hidden" value="0">
+									<span class="input-group-btn">
+										<button type="submit" class="btn">
+											<span class="glyphicon glyphicon-search"></span>
+										</button>
+									</span>
+								</form>
+							</div>
+						</div>
+						<p style="margin-top:30px;color:#4A90E2;">截止目前为止，猿圈有接近20000多测评后的活跃程序员，包括安卓、iOS、PHP、Java等等方向，并且以很快的速度增长，我们会根据您的招聘需求，每天智能推荐最适合您要求的优秀程序员！</p>
+						<p style="color:#4A90E2;">猿圈小技巧：您发的挑战数目越多，推荐的程序员数量就越多！</p>
+					</div>
+				</div>
+			</div>
+			
+			
+				
+				
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>马彦波</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8109元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="view_user_info.html">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>华世欣</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8130元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42271&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>温正</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8120元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42263&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>谢玉海</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8164元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=41473&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/android.png" style="float:right;">
+									<h3>谢玉海</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">9342元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=41473&direction=2&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/android.png" style="float:right;">
+									<h3>刘壮</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8120元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=35201&direction=2&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>杨晓兰</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8109元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=44553&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>赵洪坤</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8674元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=43702&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>韩冬雪</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8055元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42616&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>刘承伟</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8099元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42264&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>潘倩</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8109元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42586&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>段骏</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8099元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42281&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>颜倩</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8099元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42278&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>刘阳</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8119元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=42248&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>贾玉豪</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8140元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=41772&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>李龙</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8065元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=41257&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>李学浩</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8099元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=41434&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+						<div class="col-md-4" style="margin-bottom:20px;">
+							<div class="panel panel-default resume-block-simple">
+								<div class="panel-body">
+									
+									<img src="img/java.png" style="float:right;">
+									<h3>赵腾飞</h3>
+									<p>
+										<span class="resume-label">推荐指数:</span>
+										<span class="resume-label">
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+												<span class="glyphicon glyphicon-star"></span>
+											
+										</span>
+									</p>
+									<p>
+										<span class="resume-label">身价:</span>
+										<span class="resume-label">8119元</span>
+									</p>
+								</div>
+								<!-- /.panel-body -->
+							</div>
+							<div class="col-xs-12 corp-simple-action">
+								<a href="cooper/recommended/talent/view_user_info.html?userId=41245&direction=1&match=5">查看报告</a>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+	<script src="sys/js/libs/jquery-1.11.0.min.js"></script>
+	<script src="sys/bootstrap/js/bootstrap.min.js?v=3.1.1"></script>
+	<script src="sys/js/libs/jquery.sparkline.min.js"></script>
+	<script src="sys/js/libs/bootstrap-switch.min.js?v=3.0.0"></script>
+	<script src="sys/js/libs/bootstrap-select.min.js"></script>
+	<script src="sys/js/libs/bootstrap-filestyle.js"></script>
+	<script src="sys/js/libs/summernote.min.js"></script>
+	<script src="sys/js/styler/script.js"></script>
+	
+	
+
+
+
+
+<div class="afooter" style="">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				© 2016 oxcoder.com
+				<a href="contactus.html">联系我们</a>
+				<a href="http://jq.qq.com/?_wv=1027&k=eeKvVb" target="_blank">QQ交流群:77590762</a>
+				<a href="http://form.mikecrm.com/f.php?t=rJmyZe" target="_blank">意见反馈</a>
+				<script type="text/javascript">
+					var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+					document.write(
+							unescape(
+									"%3Cspan id='cnzz_stat_icon_1253509620'%3E%3C/span%3E%3Cscript src='" 
+									+ cnzz_protocol
+									+ "s23.cnzz.com/z_stat.php%3Fid%3D1253509620%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"
+							)
+					);
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+
+	<h4>页面说明：</h4>
+	<ol>
+		<li>当前页面显示推荐的人才</li>
+		<li>可以通过技术方向的分类标签来对人才进行筛选，例如点击“Java”则页面筛选出所有的java工程师</li>
+		<li>在搜索栏中输入关键词即可进行搜索</li>
+		<li>点击推荐人才卡片中的查看报告，会跳转到该用户的信息页面</li>
+	</ol>   
+</div> 
+
+<script type="text/javascript">
+//如果页面内容高度小于屏幕高度，div#footer将绝对定位到屏幕底部，否则div#footer保留它的正常静态定位
+window.onload=function(){ 
+    if (($(document.body).height() + 50) < $(window).height()) {
+        $(".afooter").addClass("navbar-fixed-bottom");
+    };
+}
+</script>
+<script type='text/javascript' src='http://tb.53kf.com/kf.php?arg=10124917&style=1'></script>
+
+
+</body>
+</html>

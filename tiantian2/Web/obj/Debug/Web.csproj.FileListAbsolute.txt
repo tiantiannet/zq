@@ -1,0 +1,109 @@
+C:\Users\Tin\Documents\tiantian2\Web\bin\Web.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\Web.pdb
+C:\Users\Tin\Documents\tiantian2\Web\bin\BLL.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\IDAL.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\DALFactory.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\Model.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\MysqlDAL.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\DBUtility.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\BLL.pdb
+C:\Users\Tin\Documents\tiantian2\Web\bin\IDAL.pdb
+C:\Users\Tin\Documents\tiantian2\Web\bin\DALFactory.pdb
+C:\Users\Tin\Documents\tiantian2\Web\bin\Model.pdb
+C:\Users\Tin\Documents\tiantian2\Web\bin\MysqlDAL.pdb
+C:\Users\Tin\Documents\tiantian2\Web\bin\DBUtility.pdb
+C:\Users\Tin\Documents\tiantian2\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Documents\tiantian2\Web\obj\Debug\Web.dll
+C:\Users\Tin\Documents\tiantian2\Web\obj\Debug\Web.pdb
+C:\Users\Tin\Documents\tiantian2\Web\bin\CodeScales.Http.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\Tools.dll
+C:\Users\Tin\Documents\tiantian2\Web\bin\Tools.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\Web.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\Web.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\BLL.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\CodeScales.Http.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\DBUtility.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\TestAliDayu.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\Tools.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\TopSdk.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\IDAL.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\DALFactory.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\Model.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\MysqlDAL.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\BLL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\DBUtility.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\Tools.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\IDAL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\DALFactory.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\Model.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\bin\MysqlDAL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Desktop\merge\tiantian2\Web\obj\Debug\Web.dll
+C:\Users\Tin\Desktop\merge\tiantian2\Web\obj\Debug\Web.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\Web.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\Web.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\BLL.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\CodeScales.Http.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\DBUtility.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\TestAliDayu.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\Tools.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\TopSdk.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\IDAL.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\DALFactory.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\Model.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\MysqlDAL.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\BLL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\DBUtility.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\Tools.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\IDAL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\DALFactory.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\Model.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\bin\MysqlDAL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\obj\Debug\Web.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\Web\obj\Debug\Web.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\Web.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\Web.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\BLL.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\CodeScales.Http.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\DBUtility.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\TestAliDayu.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\Tools.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\TopSdk.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\IDAL.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\DALFactory.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\Model.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\MysqlDAL.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\BLL.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\DBUtility.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\Tools.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\IDAL.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\DALFactory.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\Model.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\bin\MysqlDAL.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\obj\Debug\Web.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\Web\obj\Debug\Web.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\Web.dll.config
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\Web.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\Web.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\BLL.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\CodeScales.Http.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\DBUtility.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\TestAliDayu.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\Tools.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\TopSdk.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\IDAL.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\DALFactory.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\Model.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\MysqlDAL.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\BLL.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\DBUtility.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\Tools.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\IDAL.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\DALFactory.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\Model.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\bin\MysqlDAL.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\obj\Debug\Web.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\Web\obj\Debug\Web.pdb

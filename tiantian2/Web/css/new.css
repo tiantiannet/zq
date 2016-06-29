@@ -1,0 +1,124 @@
+.leftPanel{
+	background-color: #f5f5f5;
+	padding-top: 30px;
+	height: 0;
+	padding-bottom: 100%;
+    margin-left:-190px;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+#main-nav{
+    margin-left: 1px;
+}
+ 
+#main-nav.nav-tabs.nav-stacked > li > a {
+    padding: 10px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4A515B;
+    background: #E9E9E9;
+    background: -moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#E9E9E9));
+    background: -webkit-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    background: -o-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    background: -ms-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    background: linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+}
+ 
+#main-nav.nav-tabs.nav-stacked > li > a > span {
+    color: #4A515B;
+}
+
+#main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover {
+    color: #FFF;
+    background: #3C4049;
+    background: -moz-linear-gradient(top, #4A515B 0%, #3C4049 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4A515B), color-stop(100%,#3C4049));
+    background: -webkit-linear-gradient(top, #4A515B 0%,#3C4049 100%);
+    background: -o-linear-gradient(top, #4A515B 0%,#3C4049 100%);
+    background: -ms-linear-gradient(top, #4A515B 0%,#3C4049 100%);
+    background: linear-gradient(top, #4A515B 0%,#3C4049 100%);
+
+    border-color: #2B2E33;
+}
+ 
+#main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover > span ,#main-nav.nav-tabs.nav-stacked > li.active > a>span{
+    color: #FFF;
+}
+ 
+#main-nav.nav-tabs.nav-stacked > li {
+    margin-bottom: 4px;
+}
+ 
+/*定义二级菜单样式*/
+.secondmenu a {
+    font-size: 12px;
+    color: #4A515B;
+    text-align: left;
+    margin-left: 10px;
+}
+ 
+
+
+.panel-main{
+	padding-right:10px;
+}
+
+.panel-main .panel .panel-body{
+	height: 100px;
+}
+
+.spn{
+	font-size: 60px;
+}
+
+.fr{
+	float: right;
+}
+
+.da{
+	display: block;
+	font-size: 40px;
+	margin-top: -10px;
+}
+
+p{
+	text-align: right;
+}
+
+.spn,.da,p{
+	color: #FFFFFF;	
+}
+
+.divA{
+	background-color:dodgerblue;
+}
+
+.divB{
+	background-color: lightseagreen;
+}
+
+.divC{
+	background-color:indianred;
+}
+
+.divD{
+	background-color: orange;
+}
+.divE{
+	background-color: orange;
+}
+.divF{
+	background-color:indianred;
+}
+.divG{
+	background-color:dodgerblue;
+}
+.divH{
+	background-color: lightseagreen;
+}

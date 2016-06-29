@@ -1,0 +1,60 @@
+body {
+    font-family: "微软雅黑","宋体",Arial;
+    background-color: #ffffff;
+    font-size: 1.4em;
+    line-height: 26px;
+    padding-bottom: 0;
+    padding-top: 70px;
+}
+
+.div{
+	display: block;
+}
+
+h3{
+    font-size: 1.5em;
+    letter-spacing: -1px;
+}
+
+.navbar {
+    background-image: none;
+    background-color: #4A90E2;
+    border: none;
+	-webkit-border-radius: 0;
+    background-size: cover;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar .nav > li > a {
+    position: relative;
+}
+
+.nav li a {
+    transition: all 0.3s linear;
+}
+
+
+li.active{
+    color: #fff;
+    background-color: #3872a4;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    background-color: #fff;
+}
+
+ul, menu, dir {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.shadow-effect {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}

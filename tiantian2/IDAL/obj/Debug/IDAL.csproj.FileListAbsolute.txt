@@ -1,0 +1,28 @@
+C:\Users\Tin\Documents\tiantian2\IDAL\bin\Debug\IDAL.dll
+C:\Users\Tin\Documents\tiantian2\IDAL\bin\Debug\IDAL.pdb
+C:\Users\Tin\Documents\tiantian2\IDAL\bin\Debug\Model.dll
+C:\Users\Tin\Documents\tiantian2\IDAL\bin\Debug\Model.pdb
+C:\Users\Tin\Documents\tiantian2\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Documents\tiantian2\IDAL\obj\Debug\IDAL.dll
+C:\Users\Tin\Documents\tiantian2\IDAL\obj\Debug\IDAL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\IDAL\bin\Debug\IDAL.dll
+C:\Users\Tin\Desktop\merge\tiantian2\IDAL\bin\Debug\IDAL.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\IDAL\bin\Debug\Model.dll
+C:\Users\Tin\Desktop\merge\tiantian2\IDAL\bin\Debug\Model.pdb
+C:\Users\Tin\Desktop\merge\tiantian2\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Desktop\merge\tiantian2\IDAL\obj\Debug\IDAL.dll
+C:\Users\Tin\Desktop\merge\tiantian2\IDAL\obj\Debug\IDAL.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\IDAL\bin\Debug\IDAL.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\IDAL\bin\Debug\IDAL.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\IDAL\bin\Debug\Model.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\IDAL\bin\Debug\Model.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\IDAL\obj\Debug\IDAL.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\IDAL\obj\Debug\IDAL.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\IDAL\bin\Debug\IDAL.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\IDAL\bin\Debug\IDAL.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\IDAL\bin\Debug\Model.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\IDAL\bin\Debug\Model.pdb
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\IDAL\obj\Debug\IDAL.dll
+D:\Documents\20160601-QZ-Website\.NET tiantian\tiantian2 - 副本\tiantian2 - +¦¦+\tiantian2 - +¦¦+\IDAL\obj\Debug\IDAL.pdb

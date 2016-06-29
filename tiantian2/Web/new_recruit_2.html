@@ -1,0 +1,2797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="BootstrapStyler">
+	<title>猿圈 新增挑战邀请</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/bootstrapValidator.css" rel="stylesheet">
+	<link href="dev/pluginJs/fileinput/fileinput.min.css" rel="stylesheet" />
+    <link href="css/summernote.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_new.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+   <style type="text/css">
+	.companyTags li {
+		margin: 5px 5px 0 0;
+	}
+	</style>
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top" onload="validateSession()">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand hidden-sm" href="cooper/index.html" style="padding: 0;">
+				<img src="img/wlogo_sm.png" style="max-height: 35px;margin:7px;">
+				</a>
+			</div>
+			<div class="navbar-collapse collapse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li class="">
+						<a href="#">首页</a>
+					</li>
+					<li class="">
+						<a href="#">人才推荐</a>
+					</li>
+					<li class="active">
+						<a href="#">挑战管理</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="text">
+
+								
+								
+								
+								北京交通大学.net课程天天优先公司
+								
+
+							</span>
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">去打赏</a>
+							</li>
+							<li>
+								<a href="#">企业信息</a>
+							</li>
+							<li>
+								<a href="#">帐号设置</a>
+							</li>
+							<li>
+								<a href="security_logout">注销</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<section>
+					<div id="content">
+						<div class="row">
+							<div class="col-md-9 profile-stream">
+								<div class="page-header row">
+									<div class="col-md-8">
+										<h3>新增挑战邀请</h3>
+									</div>
+									<div class="col-md-4">
+										<div class="row">
+											<div class="col-md-5"></div>
+											<div class="col-md-7"></div>
+										</div>
+									</div>
+								</div>
+								<div class="page-body">
+									<div class="row">
+										<div style="text-align:center;margin-bottom:20px;">
+											<img src="img/nc2.png">
+										</div>
+										<div class="row col-md-12">
+											<h4>已选择挑战题目</h4>
+											
+
+											<div class="alert alert-info" style="text-align: center" role="alert">
+												还没有选择测试题目
+												<a href="javascript:void(0)" onclick="smartGenerator()" style="margin-left:20px;">智能生成</a>
+											</div>
+
+
+											
+										</div>
+										<div class="row col-md-12">
+											<h4 class="pull-left">挑战题目</h4>
+											<div class="pull-right">
+												<div style="display:inline-block;vertical-align: top;">
+													<div class="input-group" style="width:200px;">
+														<input id="challenges_word_id" name="" value="" class="form-control" placeholder="请输入试题关键词">
+														<span class="input-group-addon" style="cursor: pointer;" onclick="searchChallenges()">
+															<span class="glyphicon glyphicon-search"></span>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row col-md-12">
+											<p class="text-muted">选择智能生成后，我们会根据您的职位关键字与薪资智能匹配最合适的试题</p>
+										</div>
+										<div class="row col-md-12">
+											<span class="help-block has-error">
+												<small style="margin-left: 20px; display: none;" id="hint1" class="help-block"></small>
+											</span>
+										</div>
+										<div class="row col-md-12 col-no-left-padding">
+											<div class="panel-body" style="padding-bottom:0;">
+												<div class="row">
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">二分查找算法</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_38" href="javascript:addChallenge('38')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>二分查找</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">建造者模式</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_39" href="javascript:addChallenge('39')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>建造者模式</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">工厂模式</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_107" href="javascript:addChallenge('107')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>工厂模式</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">汉诺塔问题</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_108" href="javascript:addChallenge('108')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>汉诺塔问题算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">插入排序</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_109" href="javascript:addChallenge('109')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>插入排序</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">随机遍历100个数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_137" href="javascript:addChallenge('137')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>随机遍历</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">找重复数字和未出现数字</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_138" href="javascript:addChallenge('138')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>找数字算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">八枚银币</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_139" href="javascript:addChallenge('139')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>八枚银币算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">希尔排序</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_141" href="javascript:addChallenge('141')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>希尔排序</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">输出完整阶乘值</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_144" href="javascript:addChallenge('144')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>输出完整阶乘</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">台阶问题</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_146" href="javascript:addChallenge('146')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>台阶问题算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">回型矩阵</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_147" href="javascript:addChallenge('147')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>回型矩阵算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">堆排序</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_148" href="javascript:addChallenge('148')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>堆排序算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">相亲数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_152" href="javascript:addChallenge('152')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>相亲数</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">金蝉素数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_154" href="javascript:addChallenge('154')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>金蝉素数</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">地图染色</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_155" href="javascript:addChallenge('155')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>地图染色</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">备忘录模式</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_160" href="javascript:addChallenge('160')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>备忘录模式</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">归并排序</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_161" href="javascript:addChallenge('161')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>归并排序</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">队列</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_162" href="javascript:addChallenge('162')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>队列</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">快速排序</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_163" href="javascript:addChallenge('163')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>快速排序</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">选择排序</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_164" href="javascript:addChallenge('164')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>选择排序</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">对象克隆</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_165" href="javascript:addChallenge('165')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>对象克隆</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">身份证号判断</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_166" href="javascript:addChallenge('166')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>正则表达式</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">最大访客量</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_167" href="javascript:addChallenge('167')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>最大访客量</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">计算和保存文件</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_168" href="javascript:addChallenge('168')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>保存文件</li>
+
+																			<li>计算</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">洗扑克牌</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_169" href="javascript:addChallenge('169')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>乱序排列</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">颠倒栈</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_236" href="javascript:addChallenge('236')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>栈</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">数组排成较小的数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_263" href="javascript:addChallenge('263')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>数组排成较小的数</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">Armstrong数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_10" href="javascript:addChallenge('10')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>Armstrong</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">计算字符数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_11" href="javascript:addChallenge('11')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>计算字符数</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">递归运算阶乘</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_12" href="javascript:addChallenge('12')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>递归</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">报数问题</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_13" href="javascript:addChallenge('13')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>报数算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">判断回文数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_14" href="javascript:addChallenge('14')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>回文数</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">计算时间</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_15" href="javascript:addChallenge('15')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>获取时间</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">特性——继承</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_16" href="javascript:addChallenge('16')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>继承</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">公约数和公倍数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_17" href="javascript:addChallenge('17')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>数据计算</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">十进制转二进制</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_18" href="javascript:addChallenge('18')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>进制转换</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">运算法则</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_24" href="javascript:addChallenge('24')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>运算法则</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">质因数分解</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_25" href="javascript:addChallenge('25')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>质因数分解</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">计算不重复字符的位置</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_37" href="javascript:addChallenge('37')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>字符位置</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">字符串反转</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_129" href="javascript:addChallenge('129')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>字符串反转</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">ip转化为整数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_130" href="javascript:addChallenge('130')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>p转化为整数算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">统计1到100间的素数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_132" href="javascript:addChallenge('132')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>计算素数算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">判断给定的数是否为素数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_133" href="javascript:addChallenge('133')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>判断素数算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">字符串包含</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_134" href="javascript:addChallenge('134')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>字符串包含算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">三色旗</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_136" href="javascript:addChallenge('136')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>三色旗算法</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">10000以内完美数</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_143" href="javascript:addChallenge('143')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>10000以内完美数</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">分糖果</a>
+																			</h4>
+																			<h5 class="text-muted">by 猿圈团队</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_176" href="javascript:addChallenge('176')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>java</li>
+
+																			<li>小孩分糖果</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">日期比较</a>
+																			</h4>
+																			<h5 class="text-muted">by 朗讯·工程师·刘占虎</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_1" href="javascript:addChallenge('1')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>日期比较</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">大小写转换</a>
+																			</h4>
+																			<h5 class="text-muted">by 朗讯·工程师·刘占虎</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_2" href="javascript:addChallenge('2')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>大小写转换</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-md-4">
+														<div class="panel panel-default project">
+															<div class="panel-body" style="padding-bottom:0;">
+																<div class="row">
+																	<div class="col-xs-12">
+																		<div class="pull-left">
+																			<h4>
+																				<a href="javascript:;">角度计算</a>
+																			</h4>
+																			<h5 class="text-muted">by 朗讯·工程师·刘占虎</h5>
+																		</div>
+																		<div class="pull-right client-info">
+																			<a style="color: white" id="a_addbtn_3" href="javascript:addChallenge('3')" class="btn btn-primary btn-sm">添加</a>
+																		</div>
+																	</div>
+																	<div class="col-md-12" style="min-height:68px;">
+																		<ul class="companyTags">
+
+
+
+																			<li>angle</li>
+
+
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="panel-footer">
+																<div class="row">
+																	<div class="col-sm-4">
+																		<span class="small muted">项目难度</span>
+																	</div>
+																	<div class="col-sm-8">
+																		<p>
+
+																			<span class="glyphicon glyphicon-star"></span>
+
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--/.row   -->
+								</div>
+							</div>
+							<div class="col-md-3 profile-info" id="profile_info_div">
+
+
+
+
+								<div class="panel-user">
+									<div class="panel-heading">
+										<div class="panel-title">
+											<div class="media">
+												<a class="pull-left">
+													<img src="cooper_img/2626/0d4ef216-1f9d-4bbf-b27b-3aa411716f3d.jpg" class="media-object">
+												</a>
+												<div class="media-body">
+													<h4 class="media-heading">
+														<!-- <span class="welcome">Hello</span> -->
+														<span>北京交通大学.net课程天天优先公司</span>
+													</h4>
+													<span class="text-muted">
+														<small>
+															上次登录日期:
+															<br>
+															2016-05-11 00:24:00
+														</small>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-outline panel-no-padding hidden-xs">
+									<div class="panel-body">
+										<div class="stat-block stat-danger">
+											<div class="icon">
+												<b class="icon-cover"></b>
+												<i class="fa fa-bell"></i>
+											</div>
+											<div class="details">
+												<div class="number">0</div>
+												<div class="description">今日接受挑战人数</div>
+											</div>
+										</div>
+										<div class="stat-block stat-success">
+											<div class="icon">
+												<b class="icon-cover"></b>
+												<i class="fa fa-bar-chart-o"></i>
+											</div>
+											<div class="details">
+												<div class="number">0</div>
+												<div class="description">今日通过挑战人数</div>
+											</div>
+										</div>
+										<div class="stat-block stat-primary">
+											<div class="icon">
+												<b class="icon-cover"></b>
+												<i class="fa fa-tachometer"></i>
+											</div>
+											<div class="details">
+												<div class="number">0</div>
+												<div class="description">共帮您找到的人才</div>
+											</div>
+										</div>
+									</div>
+									<!-- /.panel-body -->
+								</div>
+								<!-- /.panel -->
+							</div>
+						</div>
+						<!-- /.row -->
+					</div>
+					<!-- /#content -->
+				</section>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+
+	<script src="sys/js/libs/jquery-1.11.0.min.js"></script>
+	<script src="sys/bootstrap/js/bootstrap.min.js?v=3.1.1"></script>
+	<script src="sys/js/libs/jquery.sparkline.min.js"></script>
+	<script src="sys/js/libs/bootstrap-switch.min.js?v=3.0.0"></script>
+	<script src="sys/js/libs/bootstrap-select.min.js"></script>
+	<script src="sys/js/libs/bootstrap-filestyle.js"></script>
+	<script src="sys/js/libs/summernote.min.js"></script>
+	<script type="text/javascript" src="sys/js/libs/jquery.city.select.js"></script>
+	<script src="sys/js/libs/bootstrapValidator.min.js"></script>
+	<script src="sys/js/libs/bootstrapValidator_zh_CN.js"></script>
+	
+	<script type="text/javascript" src="dev/pluginJs/jquery.form.js"></script>
+	
+	<script src="dev/pluginJs/cityselect/jquery.cityselect.js"></script>
+	
+	<script type="text/javascript" src="dev/pluginJs/jquery-confirm/jquery-confirm.min.js"></script>
+	
+	<script src="dev/pluginJs/fileinput/fileinput.min.js"></script>
+	<script src="dev/pluginJs/fileinput/fileinput_locale_zh.js"></script>
+	
+	<script src="dev/pluginJs/zmUtil.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#profile_info_div").load("cooper/cooper_left_info.html");
+			$(".test div").click(function(e) {
+				e.preventDefault();
+				$(".test div").removeClass("active");
+				$(this).addClass("active");
+			});
+			$(".level-tag a").click(function(e) {
+				if ($(".active").length = 2) {
+					$("#new_challenge_btn_1").removeAttr("disabled");
+					$("#hint1").hide();
+				} else {
+					$("#new_challenge_btn_1").attr("disabled", "true");
+					$("#hint1").show();
+				}
+			});
+
+			$("#new_challenge_form_1").bootstrapValidator({
+			}).on("success.form.bv", function(e) {
+				e.preventDefault();
+				var $form = $(e.target);
+				$form.data("bootstrapValidator");
+				if ($Util.isEmpty($("#directions_id").val())) {
+					$("#hint1").html("请选择挑战类型");
+					$("#hint1").show();
+					return false;
+				}
+				if ($Util.isEmpty($("#level_id").val())) {
+					$("#hint1").html("请选择挑战等级");
+					$("#hint1").show();
+					return false;
+				}
+				$.post("cooper/new/recruit/save_new_recruit_1.html", $form.serialize(), function(data) {
+					if(data.su){
+						location.href = data.url;
+					}else{
+						$("#hint1").html(data.msg);
+					}
+				}, "json");
+			});
+		});
+		function selectDirection(obj){
+			$("#directions_id").val(obj);
+			$("#hint1").hide();
+			$("#new_challenge_btn_1").removeAttr("disabled");
+		};
+		function selectLevel(obj){
+			$("#level_id").val(obj);
+			$("#hint1").hide();
+			$("#new_challenge_btn_1").removeAttr("disabled");
+		};
+		function go_to_import_job_url(){
+			location.href = "cooper/oxcoder_corp_in.html";
+		}
+	</script>
+
+
+
+</body>
+</html>

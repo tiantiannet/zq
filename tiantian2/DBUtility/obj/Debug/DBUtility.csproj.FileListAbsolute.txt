@@ -1,0 +1,14 @@
+C:\Users\Tin\Documents\tiantian2\DBUtility\bin\Debug\DBUtility.dll
+C:\Users\Tin\Documents\tiantian2\DBUtility\bin\Debug\DBUtility.pdb
+C:\Users\Tin\Documents\tiantian2\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Documents\tiantian2\DBUtility\obj\Debug\DBUtility.dll
+C:\Users\Tin\Documents\tiantian2\DBUtility\obj\Debug\DBUtility.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\DBUtility\bin\Debug\DBUtility.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\DBUtility\bin\Debug\DBUtility.pdb
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\DBUtility\obj\Debug\DBUtility.dll
+C:\Users\Tin\Desktop\merge\tiantian2 - 副本\DBUtility\obj\Debug\DBUtility.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\DBUtility\bin\Debug\DBUtility.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\DBUtility\bin\Debug\DBUtility.pdb
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\DBUtility\obj\Debug\DBUtility.dll
+E:\Term6_.NET架构与应用\workspace\tiantian2 - 副本\tiantian2 - 副本\DBUtility\obj\Debug\DBUtility.pdb
